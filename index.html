@@ -31,7 +31,7 @@
 <div id='container'>
 
     <header>Wiki Loves Downloads</header>
-    <p id='description'>Teilt die Bilder einer Kategorie aus Wikimedia Commons in eine gewünschte Anzahl von Listen auf und generiert diese in Form von Textdateien mit Links zu den jeweiligen Bildern, sodass diese mit Hilfe eines Downloadmanagers heruntergeladen werden können.</p>
+    <p id='description'>Divides the images of a category from Wikimedia Commons into a desired number of lists and generates them in the form of text files with links to the respective images so that they can be downloaded with the help of a download manager.</p>
 
     <div id='errorBox'>
     </div>
@@ -39,12 +39,12 @@
     <form action='src/initial.php' method='POST' id='form'>
 
         <div class='category'>
-            <span>Kategorie (z.B.: <i>Birds at Weltvogelpark Walsrode</i>)</span>
+            <span>Category (z.B.: <i>Birds at Weltvogelpark Walsrode</i>)</span>
             <input type='text' name='category' id='category'>
         </div>
 
         <div class='number'>
-            <span>Anzahl der Listen</span>
+            <span>Number of Lists</span>
             <input type='number' name='listQuantity' id='listQuantity' min='1' max='100'>
         </div>
 
@@ -55,7 +55,7 @@
                 <input type='hidden' name='names' id='names'>
         	</div>
 
-            <p id='hint'>Enter drücken um mehrere Namen hinzuzufügen</p>
+            <p id='hint'>Press Enter to add multiple names</p>
         </div>
 
         <div class='submit'>
